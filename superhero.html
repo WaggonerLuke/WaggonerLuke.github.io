@@ -1,42 +1,72 @@
 <!DOCTYPE html>
-<html lang="en-us">  
-    <head>
-        <meta charset="UTF-8">
-        <title>Template</title>
-        <!--Someday I'll use CSS    
-        <style>
-            
-        </style>
-    -->
-    </head>
-    <body>
-        <h1>Super Hero</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Alias</th>
-                        <th>Image</th>
-                        <th>Superpower</th>
-                        <th>Weakness</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Bat man</td>
-                        <td>Bruce Wayne</td>
-                        <td><img src="batman.jpg" alt="Batman"></td>
-                        <td>Average Human, No Powers</td>
-                        <td>Vulnerable to Freezing</td>
-                    </tr>
-                    <tr>
-                        <td>Spider Man</td>
-                        <td>Peter Parker</td>
-                        <td><img src="spiderman.jpg" alt="Spiderman"></td>
-                        <td>Strength, Agility, Spider Webs</td>
-                        <td>Ethyl Chloride Pesticide</td>
-                    </tr>
-                </tbody>
-            </table>
-    </body>
+<html>
+<head>
+	<title>Superheroes Table</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+			background-color: #f2f2f2;
+			border: 2px solid #ddd;
+			font-size: 14px;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		th, td {
+			padding: 8px;
+			border: 1px solid #ddd;
+		}
+		th {
+			background-color: #4CAF50;
+			color: white;
+		}
+		tr:hover {
+			background-color: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Alias</th>
+				<th>Image</th>
+				<th>Superpower</th>
+				<th>Weakness</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Bruce Wayne</td>
+				<td>Batman</td>
+				<td><a href="https://example.com/batman.jpg"><img src="https://example.com/batman-thumb.jpg" alt="Batman" height="100"></a></td>
+				<td>Average Human, No Powers</td>
+				<td>Vulnerable to Freezing</td>
+			</tr>
+			<tr>
+				<td>Peter Parker</td>
+				<td>Spider-Man</td>
+				<td><a href="https://example.com/spiderman.jpg"><img src="https://example.com/spiderman-thumb.jpg" alt="Spider-Man" height="100"></a></td>
+				<td>Spider-sense, Strength, Agility</td>
+				<td>Ethyl Chloride Pesticide</td>
+			</tr>
+			<tr>
+				<td>Tony Stark</td>
+				<td>Iron Man</td>
+				<td><a href="https://example.com/ironman.jpg"><img src="https://example.com/ironman-thumb.jpg" alt="Iron Man" height="100"></a></td>
+				<td>Powered suit with advanced technology</td>
+				<td>EMP, Hacking, Weak without Suit</td>
+			</tr>
+			<tr>
+				<td>Bruce Banner</td>
+				<td>The Hulk</td>
+				<td><a href="https://example.com/hulk.jpg"><img src="https://example.com/hulk-thumb.jpg" alt="The Hulk" height="100"></a></td>
+				<td>Super strength, gets stronger as he gets angrier</td>
+				<td>Oxygen: Choking on Rage</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
 </html>
