@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Advanced Search Form</title>
+</head>
+<body>
+	<h1>Advanced Search Form</h1>
+	<form action="https://www.google.com/search" method="GET">
+		<fieldset>
+			<legend>Search Parameters</legend>
+			<label for="query">Query:</label>
+			<input type="text" name="q" id="query"><br>
+
+			<label for="exact">Exact Match:</label>
+			<input type="checkbox" name="as_epq" id="exact" value="1"><br>
+
+			<label for="exclude">Exclude Words:</label>
+			<input type="text" name="as_eq" id="exclude"><br>
+
+			<label for="site">Search Within Site:</label>
+			<input type="text" name="as_sitesearch" id="site"><br>
+
+			<label for="filetype">File Type:</label>
+			<select name="as_filetype" id="filetype">
+				<option value="">--Select--</option>
+				<option value="pdf">PDF</option>
+				<option value="doc">DOC</option>
+				<option value="xls">XLS</option>
+			</select><br>
+
+			<label for="language">Language:</label>
+			<select name="lr" id="language">
+				<option value="">--Select--</option>
+				<option value="lang_en">English</option>
+				<option value="lang_es">Spanish</option>
+				<option value="lang_fr">French</option>
+			</select><br>
+
+			<label for="submit"></label>
+			<button type="submit" name="btnG">Search</button>
+		</fieldset>
+	</form>
+</body>
+</html>
