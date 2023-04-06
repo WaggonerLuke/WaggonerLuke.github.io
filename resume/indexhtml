@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="contact">
+            <h2>Contact Info</h2>
+            <p>Name: Luke Waggoner</p>
+            <p>Email: wagg0408@bears.unco.edu.com</p>
+            <p>Phone: 720-324-9930</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor of Business Administration With an Emphasis in Marketing</p>
+            <p>University of Northern Colorado</p>
+            <p>Graduated: May 2024</p>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Digital Marketer</p>
+            <p>Entrepreneur.</p>
+            <p>June 2022 - Present</p>
+            <ul>
+                <li>Developed advertisments for products</li>
+                <li>Collaborated with other sellers to generate higher sales volume</li>
+                <li>Optimized social media to brand at the most efficent rate possible</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Canva</li>
+                <li>PhotoShop</li>
+                <li>CapCut</li>
+                <li>Employee Management</li>
+                <li>Graphic Design</li>
+            </ul>
+            <img src="img/skills.jpg" alt="Skills">
+        </section>
+    </main>
+</body>
+
+</html>
